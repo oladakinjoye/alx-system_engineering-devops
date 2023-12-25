@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# check for correct amount of argument
+# check for the correct amount of argument
 if [ -z "$1" ]
 then
   echo "Usage: manage_my_process {start|stop|restart}"
@@ -11,7 +11,7 @@ elif [ -n "$2" ]
 fi
 
 
-# execute the command line arguments
+# executet the command line arguments
 if [ "$1" == "start" ]
 then
   ./manage_my_process &
